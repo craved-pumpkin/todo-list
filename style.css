@@ -10,8 +10,9 @@ body{
     height: max-content;
     min-height: 100vh;
 }
-.title{
+.title, .icons{
     color: white;
+    font-size: 72px;
 }
 header .navbar{padding: .5rem 0;}
 header nav.navbar .navbar-brand{color:#fff;}
@@ -30,6 +31,8 @@ section.todo-outer h1 {
     padding: 40px;
     box-shadow: 0px 0px 10px #c1c1c1;
     background: #fff;
+    border-radius: 24px;
+
 }
 table tr td button {
     background: no-repeat;
