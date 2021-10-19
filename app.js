@@ -41,9 +41,9 @@ function showtask(){
         html += `<tr>
                     <th scope="row">${index+1}</th>
                     ${taskCompleteValue}
-                    <td><button type="button" onclick="edittask(${index})" class="text-primary"><i class="fa fa-edit"></i>Edit</button></td>
-                    <td><button type="button" class="text-success" id=${index}><i class="fa fa-check-square-o"></i>Complete</button></td>
-                    <td><button type="button" onclick="deleteitem(${index})" class="text-danger"><i class="fa fa-trash"></i>Delete</button></td>
+                    <td><button type="button" onclick="edittask(${index})" class="text-primary"><i class="uil uil-pen font-m"></i></button></td>
+                    <td><button type="button" class="text-success" id=${index}><i class="uil uil-check-circle font-m"></i></button></td>
+                    <td><button type="button" onclick="deleteitem(${index})" class="text-danger"><i class="uil uil-trash-alt font-m"></i></button></td>
                 </tr>`;
     });
     addedtasklist.innerHTML = html;
