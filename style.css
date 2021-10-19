@@ -44,3 +44,6 @@ table tr td button {
     display: flex;
     justify-content: space-around;
 }
+.font-m{
+    font-size: 20px;
+}
